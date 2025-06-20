@@ -1,0 +1,57 @@
+# Data files 
+data/raw/
+data/processed/
+*.csv
+*.json
+*.pkl
+*.h5
+
+# Model weights/saved files 
+models/saved_weights/
+*.bin
+*.ckpt
+*.pt
+*.tfrecords
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment/IDE files
+.env
+.venv/
+venv/
+*.env
+*.swp
+.DS_Store
+.idea/
+.vscode/
+
+# Jupyter/Colab notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and outputs
+logs/
+*.log
+mlruns/  # MLflow tracking
+outputs/
+
+# Package/compilation files
+*.egg-info/
+dist/
+build/
+*.so
+
+# HuggingFace cache (pre-trained models)
+.cache/
+transformers/
+
+# System files (Mac/Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python virtualenv
+pip-selfcheck.json
